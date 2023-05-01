@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaletris\\Desktop\\ChatGpt\\ChatGpt\\ChatGpt.csproj": {}
+    "D:\\ChatGpt\\ChatGpt\\ChatGpt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaletris\\Desktop\\ChatGpt\\ChatGpt\\ChatGpt.csproj": {
+    "D:\\ChatGpt\\ChatGpt\\ChatGpt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaletris\\Desktop\\ChatGpt\\ChatGpt\\ChatGpt.csproj",
+        "projectUniqueName": "D:\\ChatGpt\\ChatGpt\\ChatGpt.csproj",
         "projectName": "ChatGpt",
-        "projectPath": "C:\\Users\\Kaletris\\Desktop\\ChatGpt\\ChatGpt\\ChatGpt.csproj",
-        "packagesPath": "C:\\Users\\Kaletris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaletris\\Desktop\\ChatGpt\\ChatGpt\\obj\\",
+        "projectPath": "D:\\ChatGpt\\ChatGpt\\ChatGpt.csproj",
+        "packagesPath": "C:\\Users\\Krisztián\\.nuget\\packages\\",
+        "outputPath": "D:\\ChatGpt\\ChatGpt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kaletris\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Krisztián\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +40,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -76,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
